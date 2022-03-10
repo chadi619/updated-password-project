@@ -1,6 +1,6 @@
 #include<stdio.h>
-//#include<conio.h>
-//#include<windows.h>
+#include<conio.h>
+#include<windows.h>
 main(){
 char pass[55],get,answer[3];
 int i,k=0,j=0;
@@ -45,7 +45,7 @@ while(1){
 		pass[i++]=get;
 		printf("*");	
 }
-//		printf("\nj%d,k%d",j,k);
+
 	if(k==1 && j==1)
 	{
 		printf("\nthe password you enterd is:%s",pass);
